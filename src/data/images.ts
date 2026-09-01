@@ -156,6 +156,21 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
     width: 3.0,
     height: 4.0,
     size: "36in x 48in"
+<<<<<<< HEAD
+=======
+  },
+   {
+    id: "12",
+    title: "Intersection Of Light, Oil on canvas",
+    artist: "Artist Room 1",
+    description: "Elegant gallery-level exhibition frame. Ready for replacement.",
+    price: "$20,000.00",
+    imageUrl: "/images/13.jpeg",
+    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=2608&quantity=1",
+    width: 3.0,
+    height: 4.0,
+    size: "36in x 48in"
+>>>>>>> e37703354f0d2b078f0773cd71d561f01e853ae8
   }
 ];
 
