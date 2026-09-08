@@ -158,22 +158,22 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
     size: "36in x 48in"
   },
 
-  {
-    id: "12",
-    title: "Window Panes, Acrylic on wood",
-    artist: "Artist Room 1",
-    description: "Elegant gallery-level exhibition frame. Ready for replacement.",
-    price: "$2,500",
-    imageUrl: "/images/12.png",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1274&quantity=1",
-    width: 3.0,
-    height: 4.0,
-    size: "36in x 48in"
-  },
+  // {
+  //   id: "12",
+  //   title: "Window Panes, Acrylic on wood",
+  //   artist: "Artist Room 1",
+  //   description: "Elegant gallery-level exhibition frame. Ready for replacement.",
+  //   price: "$2,500",
+  //   imageUrl: "/images/12.png",
+  //   productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1274&quantity=1",
+  //   width: 3.0,
+  //   height: 4.0,
+  //   size: "36in x 48in"
+  // },
 
   {
     id: "13",
-    title: "Intersection Of Light I",
+    title: "Intersection Of Light ",
     artist: "Artist Room 1",
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
     price: "$20,000.00",
@@ -183,18 +183,18 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
     height: 4.0,
     size: "36in x 48in"
   },
-  {
-  id: "14",
-    title: "Intersection Of Light II",
-    artist: "Artist Room 1",
-    description: "Elegant gallery-level exhibition frame. Ready for replacement.",
-    price: "$20,000.00",
-    imageUrl: "/images/13.jpeg",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=2608&quantity=1",
-    width: 3.0,
-    height: 4.0,
-    size: "36in x 48in"
-  }
+  // {
+  // id: "14",
+  //   title: "Intersection Of Light II",
+  //   artist: "Artist Room 1",
+  //   description: "Elegant gallery-level exhibition frame. Ready for replacement.",
+  //   price: "$20,000.00",
+  //   imageUrl: "/images/13.jpeg",
+  //   productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=2608&quantity=1",
+  //   width: 3.0,
+  //   height: 4.0,
+  //   size: "36in x 48in"
+  // }
 
 ];
 
