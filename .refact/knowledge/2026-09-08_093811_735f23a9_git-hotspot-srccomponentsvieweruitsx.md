@@ -14,7 +14,7 @@ kind: code
 status: proposed
 superseded_by: null
 deprecated_at: null
-review_after: 2026-09-08
+review_after: 2026-09-09
 source_chat_id: null
 created_at: 2026-09-08T16:38:11.564425300+00:00
 summary: null
