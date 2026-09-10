@@ -25,40 +25,41 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
   // --- NORTH WALL (6 Normal Artworks) ---
   {
     id: "2",
-    title: "Ink Series 1-3 Triptych",
+    title: "Mystery, Acrylic on wood",
     artist: "Grace Refuerzo Art",
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
-    price: "$7,200",
-    imageUrl: "/images/01.jpg",
-    productUrl: "https://your-link-2.com",
-    width: 5.0,
-    height: 2.0,
-    size: "24in x 72in"
+    price: "$6,500",
+    imageUrl: "/images/06.png",
+    productUrl: "https://your-link-2.com https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1265&quantity=1",
+    width: 2.5,
+    height: 4.0,
+    size: "2-18in x 48in"
   },
   {
     id: "3",
-    title: "Ink Series 3, Acrylic and Ink on wood",
+    title: "Intersection Of Light",
     artist: "Grace Refuerzo ",
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
-    price: "$2,400",
-    imageUrl: "/images/02.png",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1280&quantity=1",
-    size: "24in x 24in",
+    price: "$20,000.00 ",
+    imageUrl: "/images/13.jpeg",
+    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=2608&quantity=1",
+    size: "36in x 48in",
     width: 3.0,
-    height: 3.0
+    height: 4.0
   },
   {
     id: "4",
-    title: "Ink Series 2, Acrylic and Ink on wood",
+    title: "Echoes, Acrylic on wood",
     artist: "Grace Refuerzo Art",
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
-    price: "$2,400",
-    imageUrl: "/images/03.png",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1279&quantity=1",
-    width: 3.0,
-    height: 3.0,
-    size: "24in x 24in"
+    price: "$4,800",
+    imageUrl: "/images/05.png",
+    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1267&quantity=1",
+    width: 2.5,
+    height: 4.0,
+    size: "26in x 48in"
   },
+
   {
     id: "5",
     title: "Ink Series 1, Acrylic and Ink on wood",
@@ -73,27 +74,27 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
   },
   {
     id: "6",
-    title: "Echoes, Acrylic on wood",
+    title: " Ink Series 2, Acrylic and Ink on wood",
     artist: "Grace Refuerzo Art",
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
-    price: "$4,800",
-    imageUrl: "/images/05.png",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1267&quantity=1",
-    width: 2.5,
-    height: 4.0,
-    size: "36in x 48in"
+    price: "$2,400",
+    imageUrl: "/images/03.png",
+    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1279&quantity=1",
+    width: 3.0,
+    height: 3.0,
+    size: "24in x 24in"
   },
-  {
+ {
     id: "7",
-    title: "Mystery, Acrylic on wood",
+    title: "Ink Series 3, Acrylic and Ink on wood",
     artist: "Grace Refuerzo Art",
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
-    price: "$6,500",
-    imageUrl: "/images/06.png",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1265&quantity=1",
-    width: 2.5,
-    height: 4.0,
-    size: "2-18in x 48in"
+    price: "$2,400",
+    imageUrl: "/images/02.png",
+    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1280&quantity=1",
+    width: 3.0,
+    height: 3.0,
+    size: "24in x 24in"
   },
 
   // --- EAST WALL (8 Normal Artworks) ---
@@ -109,29 +110,30 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
     height: 4.0,
     size: "36in x 48in"
   },
-  {
-    id: "9",
-    title: "Echoes, Acrylic on wood",
-    artist: "Artist Room 1",
-    description: "Elegant gallery-level exhibition frame. Ready for replacement.",
-    price: "$4,800",
-    imageUrl: "/images/08.png",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1267&quantity=1",
-    width: 2.0,
-    height: 3.0,
-    size: "24in x 36in"
-  },
+  // {
+  //   id: "9",
+  //   title: "Echoes, Acrylic on wood",
+  //   artist: "Artist Room 1",
+  //   description: "Elegant gallery-level exhibition frame. Ready for replacement.",
+  //   price: "$4,800",
+  //   imageUrl: "/images/08.png",
+  //   productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1267&quantity=1",
+  //   width: 2.0,
+  //   height: 3.0,
+  //   size: "24in x 36in"
+  // },
   {
     id: "10",
-    title: "Solitude, Acrylic on wood",
+    title: "Ink Series 1-3 Triptych ",
     artist: "Artist Room 1",
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
-    price: "$3,500",
-    imageUrl: "/images/09.png",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1261&quantity=1",
-    width: 2.5,
-    height: 3.0,
-    size: "30in x 36in"
+    price: "$7,200",
+    imageUrl: "/images/01.jpg",
+    productUrl: "https://your-link-2.com",
+    width: 5.0,
+    height: 2.0,
+    size: "24in x 72in"
+
   },
   {
     id: "11",
@@ -173,15 +175,16 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
 
   {
     id: "13",
-    title: "Intersection Of Light ",
+    title: "Solitude, Acrylic on wood",
     artist: "Artist Room 1",
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
-    price: "$20,000.00",
-    imageUrl: "/images/13.jpeg",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=2608&quantity=1",
-    width: 3.0,
-    height: 4.0,
-    size: "36in x 48in"
+    price: "$3,500",
+    imageUrl: "/images/09.png",
+    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1261&quantity=1 ",
+    width: 2.5,
+    height: 3.0,
+    size: "30in x 36in"
+
   },
   // {
   // id: "14",
