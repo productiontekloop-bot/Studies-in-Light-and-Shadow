@@ -100,12 +100,12 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
   // --- EAST WALL (8 Normal Artworks) ---
   {
     id: "8",
-    title: "Evening At The Shore, Acrylic on wood",
+    title: "Shadows Of Light II, Oil on canvas",
     artist: "Artist Room 1",
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
-    price: "$3,500",
-    imageUrl: "/images/07.jpg",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=2021&quantity=1",
+    price: "$3,800",
+    imageUrl: "/images/14.png",
+    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1290&quantity=1",
     width: 3.0,
     height: 4.0,
     size: "36in x 48in"
@@ -122,21 +122,9 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
   //   height: 3.0,
   //   size: "24in x 36in"
   // },
-  {
+ 
+{
     id: "10",
-    title: "Ink Series 1-3 Triptych ",
-    artist: "Artist Room 1",
-    description: "Elegant gallery-level exhibition frame. Ready for replacement.",
-    price: "$7,200",
-    imageUrl: "/images/01.jpg",
-    productUrl: "https://your-link-2.com",
-    width: 5.0,
-    height: 2.0,
-    size: "24in x 72in"
-
-  },
-  {
-    id: "11",
     title: "Shadows Of Light l, Oil on Canvas",
     artist: "Artist Room 1",
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
@@ -146,9 +134,36 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
     width: 3.0,
     height: 4.0,
     size: "36in x 48in"
+
   },
   {
-    id: "12",
+    id: "11",
+    title: "Ink Series 1-3 Triptych",
+    artist: "Artist Room 1",
+    description: "Elegant gallery-level exhibition frame. Ready for replacement.",
+    price: "$7,200",
+    imageUrl: "/images/01.jpg ",
+    productUrl: "https://your-link-2.com",
+    width: 5.0,
+    height: 2.0,
+    size: "24in x 72in"
+  },
+   {
+    id: "14",
+    title: "Evening At The Shore, Acrylic on wood",
+    artist: "Artist Room 1",
+    description: "Elegant gallery-level exhibition frame. Ready for replacement.",
+    price: "$3,500",
+    imageUrl: "/images/07.jpg",
+    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=2021&quantity=1",
+    width: 3.0,
+    height: 4.0,
+    size: "36in x 48in"
+  },
+
+
+  {
+    id: "13",
     title: "Window Panes, Acrylic on wood",
     artist: "Artist Room 1",
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",

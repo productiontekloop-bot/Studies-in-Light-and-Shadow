@@ -15,7 +15,7 @@ kind: pattern
 status: proposed
 superseded_by: null
 deprecated_at: null
-review_after: 2026-09-10
+review_after: 2026-09-11
 source_chat_id: null
 created_at: 2026-09-10T19:41:13.701940100+00:00
 summary: null
