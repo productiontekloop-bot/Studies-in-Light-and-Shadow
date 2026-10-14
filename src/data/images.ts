@@ -30,7 +30,7 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
     price: "$6,500",
     imageUrl: "/images/06.png",
-    productUrl: "https://your-link-2.com https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1265&quantity=1",
+    productUrl: "https://gracerefuerzoart.com/checkout/?add-to-cart=1265&quantity=1",
     width: 2.5,
     height: 4.0,
     size: "2-18in x 48in"
@@ -42,7 +42,7 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
     price: "$20,000.00 ",
     imageUrl: "/images/13.jpeg",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=2608&quantity=1",
+    productUrl: "https://gracerefuerzoart.com/checkout/?add-to-cart=2608&quantity=1",
     size: "36in x 48in",
     width: 3.0,
     height: 4.0
@@ -67,7 +67,7 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
     price: "$2,400",
     imageUrl: "/images/04.png",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1278&quantity=1",
+    productUrl: "https://gracerefuerzoart.com/checkout/?add-to-cart=1278&quantity=1",
     width: 3.0,
     height: 3.0,
     size: "24in x 24in"
@@ -79,7 +79,7 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
     price: "$2,400",
     imageUrl: "/images/03.png",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1279&quantity=1",
+    productUrl: "https://gracerefuerzoart.com/checkout/?add-to-cart=1279&quantity=1",
     width: 3.0,
     height: 3.0,
     size: "24in x 24in"
@@ -91,7 +91,7 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
     price: "$2,400",
     imageUrl: "/images/02.png",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1280&quantity=1",
+    productUrl: "https://gracerefuerzoart.com/checkout/?add-to-cart=1280&quantity=1",
     width: 3.0,
     height: 3.0,
     size: "24in x 24in"
@@ -105,7 +105,7 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
     price: "$3,800",
     imageUrl: "/images/14.png",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1290&quantity=1",
+    productUrl: "https://gracerefuerzoart.com/checkout/?add-to-cart=1290&quantity=1",
     width: 3.0,
     height: 4.0,
     size: "36in x 48in"
@@ -130,7 +130,7 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
     price: "$3,900",
     imageUrl: "/images/10.jpg",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1290&quantity=1",
+    productUrl: "https://gracerefuerzoart.com/checkout/?add-to-cart=1290&quantity=1",
     width: 3.0,
     height: 4.0,
     size: "36in x 48in"
@@ -155,7 +155,7 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
     price: "$3,500",
     imageUrl: "/images/07.jpg",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=2021&quantity=1",
+    productUrl: "https://gracerefuerzoart.com/checkout/?add-to-cart=2021&quantity=1",
     width: 3.0,
     height: 4.0,
     size: "36in x 48in"
@@ -169,7 +169,7 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
     price: "$2,500",
     imageUrl: "/images/12.png",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1274&quantity=1",
+    productUrl: "https://gracerefuerzoart.com/checkout/?add-to-cart=1274&quantity=1",
     width: 3.0,
     height: 4.0,
     size: "36in x 48in"
@@ -195,7 +195,7 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
     description: "Elegant gallery-level exhibition frame. Ready for replacement.",
     price: "$3,500",
     imageUrl: "/images/09.png",
-    productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=1261&quantity=1 ",
+    productUrl: "https://gracerefuerzoart.com/checkout/?add-to-cart=1261&quantity=1 ",
     width: 2.5,
     height: 3.0,
     size: "30in x 36in"
