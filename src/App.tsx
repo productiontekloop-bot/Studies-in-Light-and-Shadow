@@ -11,6 +11,7 @@ import { motion, AnimatePresence } from 'motion/react';
 
 export default function App() {
   const [selectedArtwork, setSelectedArtwork] = useState<Artwork | null>(null);
+  const [detailsArtwork, setDetailsArtwork] = useState<Artwork | null>(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [currentRoom, setCurrentRoom] = useState(1);
   const [isTransitioning, setIsTransitioning] = useState(false);
@@ -22,6 +23,16 @@ export default function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  useEffect(() => {
+    const handleEscape = (event: KeyboardEvent) => {
+      if (event.key !== 'Escape') return;
+      if (detailsArtwork) setDetailsArtwork(null);
+      else setSelectedArtwork(null);
+    };
+    window.addEventListener('keydown', handleEscape);
+    return () => window.removeEventListener('keydown', handleEscape);
+  }, [detailsArtwork]);
+
   const handleRoomChange = (room: number) => {
     if (room > 3 || room < 1 || room === currentRoom) return;
     
@@ -30,6 +41,7 @@ export default function App() {
     setTimeout(() => {
       setCurrentRoom(room);
       setSelectedArtwork(null);
+      setDetailsArtwork(null);
       // Brief delay to allow the black overlay to be fully visible before switching
       setTimeout(() => {
         setIsTransitioning(false);
@@ -93,7 +105,8 @@ export default function App() {
 
       <div className="w-full h-full">
         <Gallery3D 
-          onArtworkSelect={setSelectedArtwork} 
+          onArtworkSelect={(artwork) => { setSelectedArtwork(artwork); setDetailsArtwork(null); }}
+          onArtworkDetails={(artwork) => { setSelectedArtwork(artwork); setDetailsArtwork(artwork); }} 
           selectedArtwork={selectedArtwork}
           currentRoom={currentRoom}
           onRoomChange={handleRoomChange}
@@ -101,8 +114,8 @@ export default function App() {
       </div>
 
       <ViewerUI 
-        artwork={selectedArtwork} 
-        onClose={() => setSelectedArtwork(null)} 
+        artwork={detailsArtwork} 
+        onClose={() => setDetailsArtwork(null)} 
       />
 
       {/* Room Indicator */}

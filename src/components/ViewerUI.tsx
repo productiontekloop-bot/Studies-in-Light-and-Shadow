@@ -9,20 +9,21 @@ interface ViewerUIProps {
 
 export function ViewerUI({ artwork, onClose }: ViewerUIProps) {
   return (
-    <div className="absolute inset-0 pointer-events-none z-10">
+    <div className="absolute inset-0 pointer-events-none z-50">
       <AnimatePresence>
         {artwork && (
           <motion.div
+            role="dialog" aria-modal="true" aria-label={artwork.title}
             initial={{ x: '100%', opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             exit={{ x: '100%', opacity: 0 }}
             transition={{ type: 'spring', damping: 25, stiffness: 120 }}
-            className="absolute right-0 top-0 bottom-0 w-full max-w-sm bg-[#121212]/95 backdrop-blur-2xl shadow-2xl p-10 flex flex-col pointer-events-auto border-l border-white/10"
+            className="absolute right-0 top-0 bottom-0 w-full max-w-sm bg-[#121212]/95 backdrop-blur-2xl shadow-2xl p-6 pt-16 sm:p-10 flex flex-col overflow-y-auto overscroll-contain pointer-events-auto border-l border-white/10"
           >
             <button 
               onClick={onClose}
               className="absolute top-6 right-6 p-2 text-white/40 hover:text-white transition-colors cursor-pointer"
-              title="Close Panel"
+              title="Close Panel" aria-label="Close artwork details" autoFocus
             >
               <X size={20} />
             </button>
@@ -81,7 +82,7 @@ export function ViewerUI({ artwork, onClose }: ViewerUIProps) {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}
-                onClick={() => window.open(artwork.productUrl, '_blank')}
+                onClick={() => window.open(artwork.productUrl, '_blank', 'noopener,noreferrer')}
                 className="w-full bg-gold text-black py-5 mt-10 font-bold text-xs uppercase tracking-[0.2em] hover:brightness-110 transition-all active:scale-[0.98] cursor-pointer shadow-[0_10px_30px_rgba(212,175,55,0.2)]"
               >
                 Buy Product

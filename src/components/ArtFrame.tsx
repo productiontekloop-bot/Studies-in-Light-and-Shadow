@@ -7,6 +7,7 @@ import ErrorBoundary from './ErrorBoundary';
 interface ArtFrameProps {
   artwork: Artwork;
   onClick: (artwork: Artwork) => void;
+  onDetails: (artwork: Artwork) => void;
   isActive: boolean;
 }
 
@@ -392,7 +393,7 @@ function FallbackArtworkMesh({
   );
 }
 
-export function ArtFrame({ artwork, onClick, isActive }: ArtFrameProps) {
+export function ArtFrame({ artwork, onClick, onDetails, isActive }: ArtFrameProps) {
   const [hovered, setHovered] = useState(false);
 
   useCursor(hovered);
@@ -409,7 +410,7 @@ export function ArtFrame({ artwork, onClick, isActive }: ArtFrameProps) {
       onPointerOut={(e) => { e.stopPropagation(); setHovered(false); }}
     >
       {/* Frame / Border */}
-      <mesh position={[0, 0, -0.05]} castShadow receiveShadow>
+      <mesh position={[0, 0, -0.05]} castShadow receiveShadow onClick={(e) => { e.stopPropagation(); onClick(artwork); }}>
         <boxGeometry args={[width + 0.25, height + 0.25, 0.08]} />
         <meshStandardMaterial 
           color="#151515" 
@@ -419,8 +420,8 @@ export function ArtFrame({ artwork, onClick, isActive }: ArtFrameProps) {
       </mesh>
 
       {/* Bottom Label Plaque (Artist, Title, Size) */}
-      {!(artwork.isLarge || artwork.id === "1") && (
-        <group position={[0, -height / 2 - 0.72, 0.01]}>
+      {(
+        <group position={[0, -height / 2 - 0.72, 0.01]} onClick={(e) => { e.stopPropagation(); onDetails(artwork); }}>
           {/* Outer border plate */}
           <mesh position={[0, 0, 0]} castShadow receiveShadow>
             <boxGeometry args={[2.90, 0.80, 0.01]} />
