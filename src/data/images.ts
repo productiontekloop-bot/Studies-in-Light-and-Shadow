@@ -201,18 +201,18 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
     size: "30in x 36in"
 
   },
-  // {
-  // id: "14",
-  //   title: "Intersection Of Light II",
-  //   artist: "Artist Room 1",
-  //   description: "Elegant gallery-level exhibition frame. Ready for replacement.",
-  //   price: "$20,000.00",
-  //   imageUrl: "/images/13.jpeg",
-  //   productUrl: "https://demowebsiteexecutions.com/grace/checkout/?add-to-cart=2608&quantity=1",
-  //   width: 3.0,
-  //   height: 4.0,
-  //   size: "36in x 48in"
-  // }
+  {
+    id: "14",
+    title: "Transcendence, 2026, Oil on canvas ",
+    artist: "Grace Refuerzo ",
+    description: "Grace Refuerzo-level exhibition frame. Ready for replacement.",
+    price: "$5,800",
+    imageUrl: "/images/08.webp",
+    productUrl: "https://gracerefuerzoart.com/checkout/?add-to-cart=2746&quantity=1",
+    width: 3.6,
+    height: 4.0,
+    size: "36in x 48in"
+  },
 
 ];
 
