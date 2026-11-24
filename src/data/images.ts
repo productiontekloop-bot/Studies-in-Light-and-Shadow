@@ -207,7 +207,7 @@ export const GALLERY_IMAGES: ImageArtwork[] = [
     artist: "Grace Refuerzo ",
     description: "Grace Refuerzo-level exhibition frame. Ready for replacement.",
     price: "$5,800",
-    imageUrl: "/images/08.webp",
+    imageUrl: "/images/15.webp",
     productUrl: "https://gracerefuerzoart.com/checkout/?add-to-cart=2746&quantity=1",
     width: 3.6,
     height: 4.0,
